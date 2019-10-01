@@ -3,8 +3,10 @@
 namespace models;
 
 
+use Core\Helpers;
 use DateInterval;
 use DateTime;
+use Klein\Response;
 use models\tables\Users;
 
 class Auth
@@ -45,5 +47,18 @@ class Auth
             "hash" => Cookies::get("auth")
         ]);
         Cookies::set("auth", null, -1);
+    }
+
+    static function isLogin(){
+        $users = new Users();
+        if (!Cookies::get("auth")) return false;
+        return $users->has(["hash" => Cookies::get("auth")]);
+    }
+
+    static function middleware(Response $response){
+        if (!self::isLogin()){
+            $response->redirect(Helpers::url("login"))->send();
+            exit();
+        }
     }
 }

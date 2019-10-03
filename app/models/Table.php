@@ -36,4 +36,8 @@ abstract class Table extends Model
             "id" => $id
         ]);
     }
+
+    function count($where = null){
+        return $this->db()->count(static::$table_name, $where);
+    }
 }

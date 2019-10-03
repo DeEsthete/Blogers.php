@@ -1,21 +1,21 @@
 <?php
 
-use controllers\admin\DashboardController;
-use controllers\LoginController;
-use Core\Helpers;
-use core\RenderEngine;
+use controllers\PostsController;
 use Klein\Klein;
 use Klein\Request;
-use Klein\Response;
-use models\Auth;
-use models\Cookies;
-use models\Password;
-use models\tables\Users;
 
 $router = new Klein();
 
 $router->get("/?", function (){
     return "Go out";
+});
+
+$router->get("/page/[i:page]/?", function (Request $request) {
+    $controller = new PostsController();
+    $controller->getByPage($request->param("page"));
+});
+
+$router->get("/post/[i:id]/?", function () {
 });
 
 include "web/auth.php";

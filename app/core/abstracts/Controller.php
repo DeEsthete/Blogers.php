@@ -6,8 +6,15 @@ use core\RenderEngine;
 
 abstract class Controller implements ControllerInterface
 {
+    protected $layout;
+
     public function render($templateName, $variables = [])
     {
+        if ($this->layout !== null){
+            $variables["template"] = $templateName . Config::main("templateExtension");
+            $templateName = "layout/" . $this->layout;
+        }
+
         $engine = RenderEngine::get();
         if ($variables){
             foreach ($variables as $key => $value){

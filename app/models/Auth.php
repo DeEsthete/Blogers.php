@@ -17,9 +17,16 @@ class Auth
 
     static function login($username, $password)
     {
-        if (!$username || !$password) return false;
+        if (!$username || !$password){
+            Flashes::message("Incorrect login or password", "danger");
+            return false;
+        }
         $users = new Users();
-        if (!$users->has(["username" => $username])) return false;
+        if (!$users->has(["username" => $username]))
+        {
+            Flashes::message("Incorrect login or password", "danger");
+            return false;
+        }
         $user = $users->get("*", ["username" => $username]);
         if (!Password::verify($password, $user["password"])) return false;
         $hash = Hash::generate();
@@ -34,6 +41,9 @@ class Auth
         ], [
             "username" => $username
         ]);
+
+        Flashes::message("Successful login", "info");
+
         return $users->has(["hash" => $hash]);
     }
 

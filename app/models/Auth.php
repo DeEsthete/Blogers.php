@@ -15,7 +15,7 @@ class Auth
     {
     }
 
-    static function login($username, $password)
+    static function login($username, $password, $api = false)
     {
         if (!$username || !$password){
             Flashes::message("Incorrect login or password", "danger");
@@ -29,18 +29,21 @@ class Auth
         }
         $user = $users->get("*", ["username" => $username]);
         if (!Password::verify($password, $user["password"])) return false;
-        $hash = Hash::generate();
 
-        $date = new DateTime();
-        $interval = new DateInterval("P1Y");
-        $date->add($interval);
+        if (!$api){
+            $hash = Hash::generate();
 
-        Cookies::set("auth", $hash, $date->getTimestamp());
-        $users->update([
-            "hash" => $hash
-        ], [
-            "username" => $username
-        ]);
+            $date = new DateTime();
+            $interval = new DateInterval("P1Y");
+            $date->add($interval);
+
+            Cookies::set("auth", $hash, $date->getTimestamp());
+            $users->update([
+                "hash" => $hash
+            ], [
+                "username" => $username
+            ]);
+        }
 
         Flashes::message("Successful login", "info");
 

@@ -1,0 +1,1 @@
+{"code":5000,"data":[{"id":"1","username":"admin","password":"$2y$10$6ubuxkiqbPTeHG7XlNWBTu8cG0rxwYVysHRApFslDRc47XbthFF5m","name":"admin","email":"ohMy@ohmy.com","hash":"5eb825fd28b7350709d895e4cb9f298a","token":"d6b2fe79d9c2ff6021e9c649cb6ceee0"}],"messages":null}

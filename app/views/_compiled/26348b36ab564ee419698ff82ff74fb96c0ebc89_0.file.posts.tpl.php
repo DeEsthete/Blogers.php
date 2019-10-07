@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2019-10-03 18:41:34
+/* Smarty version 3.1.34-dev-7, created on 2019-10-07 15:59:43
   from 'C:\OSPanel\domains\blogers.php\app\views\posts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5d9616ae3fe3f9_42447928',
+  'unifunc' => 'content_5d9b36bf5689c2_69529664',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '26348b36ab564ee419698ff82ff74fb96c0ebc89' => 
     array (
       0 => 'C:\\OSPanel\\domains\\blogers.php\\app\\views\\posts.tpl',
-      1 => 1570117293,
+      1 => 1570117297,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d9616ae3fe3f9_42447928 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d9b36bf5689c2_69529664 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['posts']->value, 'post');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['post']->value) {
@@ -41,7 +41,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['post']->value) {
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
 <?php if ($_smarty_tpl->tpl_vars['pages']->value > 1) {?>
-<div class="d_flex text-center align-items-center justify-content-center">
+<div class="d_flex align-items-center justify-content-center">
     <nav aria-label="Page navigation example">
         <ul class="pagination">
             <li class="page-item <?php if ($_smarty_tpl->tpl_vars['current_page']->value-1 < 1) {?>disabled<?php }?>">

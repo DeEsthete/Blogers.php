@@ -20,5 +20,6 @@ $router->get("/post/[i:id]/?", function () {
 
 include "web/auth.php";
 include "web/admin.php";
+include "api.php";
 
 $router->dispatch();

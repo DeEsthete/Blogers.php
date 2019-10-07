@@ -1,0 +1,166 @@
+POST http://blogers.php:8888/api/users?token=d6b2fe79d9c2ff6021e9c649cb6ceee0&username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T094634.200.txt
+
+###
+
+POST http://blogers.php:8888/api/users?token=d6b2fe79d9c2ff6021e9c649cb6ceee0&username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T094518.200.txt
+
+###
+
+POST http://blogers.php:8888/api/users?token=d6b2fe79d9c2ff6021e9c649cb6ceee0&username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T094412.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token?token=1da50fb96ca046db483dbdc27e80faef&username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T094358.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token?token=1da50fb96ca046db483dbdc27e80faef
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T094340.200.txt
+
+###
+
+POST http://blogers.php:8888/api/users?token=1da50fb96ca046db483dbdc27e80faef
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://blogers.php:8888/api/users?token=1da50fb96ca046db483dbdc27e80faef
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://blogers.php:8888/api/token?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T094036.200.txt
+
+###
+
+POST http://blogers.php:8888/api/users/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://blogers.php:8888/api/users?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093331-1.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093331.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093330-1.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093330.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093329-1.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093329.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093328-1.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093328.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093327.200.txt
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T093211.500.html
+
+###
+
+POST http://blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-07T092902.200.html
+
+###
+
+POST http:/blogers.php:8888/api/token/blogers.php:8888/api/token/?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+

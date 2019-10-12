@@ -9,9 +9,6 @@ use models\tables\Users;
 
 class PostsController extends Controller
 {
-    function show(){
-
-    }
     function create(){
         $users = new Users();
         $categories = new Categories();

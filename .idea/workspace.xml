@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78afca1b-cf52-410e-af72-2111aa39ad4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hot_blogers.php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hot_blogers.php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/CategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routing/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/web/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/web/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/Categories.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/Categories.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/Dashboard.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/Dashboard.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +30,6 @@
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1S5ZS1RmWy5v2YpOLouj4RlVQph" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -1009,6 +998,7 @@
       <workItem from="1570453071345" duration="328000" />
       <workItem from="1570459814964" duration="3292000" />
       <workItem from="1570855414171" duration="1198000" />
+      <workItem from="1570856850595" duration="975000" />
     </task>
     <servers />
   </component>
@@ -1020,7 +1010,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
